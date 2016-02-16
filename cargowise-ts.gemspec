@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
-  s.name              = "cargowise"
+  s.name              = "cargowise-ts"
   s.version           = "1.0.0.alpha"
   s.summary           = "client library for the ediEnterprise SOAP API by cargowise"
   s.description       = "Retrieve tracking and status information on your shipments from ediEnterprise"
-  s.authors           = ["James Healy"]
-  s.email             = ["james@yob.id.au"]
-  s.homepage          = "http://github.com/yob/cargowise"
+  s.authors           = ["James Healy","Patrick Dockhorn"]
+  s.email             = 'patrick@apptastic.com.au'
+  s.homepage          = "https://github.com/patsch/cargowise"
   s.has_rdoc          = true
   s.rdoc_options      << "--title" << "Cargowise" << "--line-numbers"
   s.files             = Dir.glob("lib/**/*.rb") + Dir.glob("lib/**/*.xml") + Dir.glob("examples/**/*.rb") + ["README.markdown", "CHANGELOG", "TODO", "COPYING", "MIT-LICENSE"]
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.add_dependency("savon", "~>2.2.0")
   s.add_dependency("nokogiri", "~>1.4")
   s.add_dependency("mechanize", "~>2.0")
-
+  s.add_dependency("handsoap")
   s.post_install_message = <<END_DESC
 
   ********************************************
@@ -24,6 +24,8 @@ Gem::Specification.new do |s|
 
   The old API has been removed, so you will need to update your code
   before it will work with cargowise 1.0.0 or higher.
+
+  This fork is adding additional data elements when parsing the EDI XML.
 
   ********************************************
 
