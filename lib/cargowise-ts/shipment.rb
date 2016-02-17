@@ -5,6 +5,7 @@ require 'cargowise-ts/packing'
 require 'cargowise-ts/consol'
 require 'cargowise-ts/document'
 require 'cargowise-ts/invoice'
+require 'cargowise-ts/mini_order'
 
 module CargowiseTS
 
@@ -36,7 +37,7 @@ module CargowiseTS
 
     attr_reader :consignee_name
 
-    attr_reader :consols, :packings, :documents, :invoices
+    attr_reader :consols, :packings, :documents, :invoices, :mini_orders
 
     def initialize(node)
       @node = node
@@ -76,6 +77,12 @@ module CargowiseTS
         Invoice.new(node)
       }.sort_by { |inv|
         inv.due_date
+      }
+
+      @mini_orders = node_array("./Orders/Order").map { |node|
+        MiniOrder.new(node)
+      }.sort_by { |mo|
+        mo.ordered_at
       }
     end
 

@@ -29,9 +29,9 @@ module CargowiseTS
     def initialize(node)
       @node = node
 
-      @order_number = text_value("./Order/OrderNumber")
-      @order_status = text_value("./Order/Status")
-      @ordered_at  = text_value("./Order/OrderDate")
+      @order_number = text_value("./OrderNumber")
+      @order_status = text_value("./Status")
+      @ordered_at  = text_value("./OrderDate")
     end
 
     def to_xml
