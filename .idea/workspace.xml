@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/.titlepage.rb.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/abstract_result.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/client.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/consol.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/document.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/invoice.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/order.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/order_search.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/order_wsdl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/packing.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/shipment.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/shipment_search.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cargowise/shipment_wsdl.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cargowise-ts.gemspec" afterPath="$PROJECT_DIR$/cargowise-ts.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cargowise-ts/order_search.rb" afterPath="$PROJECT_DIR$/lib/cargowise-ts/order_search.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb" afterPath="$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb" />
     </list>
     <ignored path="cargowise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="abstract_result.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="abstract_result.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/abstract_result.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -48,10 +35,38 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="shipment_search.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order_search.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/order_search.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6824104">
+              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb" />
+        <option value="$PROJECT_DIR$/lib/cargowise-ts/order_search.rb" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
@@ -204,6 +219,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/order_search.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6824104">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
           <folding />
         </state>
       </provider>

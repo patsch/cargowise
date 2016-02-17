@@ -91,7 +91,7 @@ module CargowiseTS
     def get_shipments_list(filter_hash)
       response = @savon_client.call(:get_shipments_list, message: filter_hash)
       response.xpath("//tns:GetShipmentsListResult/tns:WebShipment", {"tns" => Cargowise::DEFAULT_NS}).map do |node|
-        Cargowise::Shipment.new(node)
+        CargowiseTS::Shipment.new(node)
       end
     end
 
