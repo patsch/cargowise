@@ -27,17 +27,17 @@ module CargowiseTS
 
     def node_array(path)
       path = path.gsub("/","/tns:")
-      node.xpath("#{path}", "tns" => Cargowise::DEFAULT_NS)
+      node.xpath("#{path}", "tns" => CargowiseTS::DEFAULT_NS)
     end
 
     def text_value(path)
       path = path.gsub("/","/tns:")
-      node.xpath("#{path}/text()", "tns" => Cargowise::DEFAULT_NS).to_s
+      node.xpath("#{path}/text()", "tns" => CargowiseTS::DEFAULT_NS).to_s
     end
 
     def attribute_value(path)
       path = path.gsub(/\/([^@])/u,'/tns:\1')
-      node.xpath(path, "tns" => Cargowise::DEFAULT_NS).to_s
+      node.xpath(path, "tns" => CargowiseTS::DEFAULT_NS).to_s
     end
 
     def time_value(path)

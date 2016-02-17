@@ -92,19 +92,19 @@ module CargowiseTS
       @consols.map { |con| con.transport_mode }.uniq.sort.join(" ")
     end
 
-    # lookup full Cargowise::Order objects for each order on this shipment.
+    # lookup full CargowiseTS::Order objects for each order on this shipment.
     #
-    # client is a Cargowise::Client instance to look for the related shipments on
+    # client is a CargowiseTS::Client instance to look for the related shipments on
     #
     def orders(client)
       @orders ||= client.orders.by_shipment_number(self.number)
     end
 
-    # lookup related Cargowise::Shipment objects. These are usually "child" shipments
+    # lookup related CargowiseTS::Shipment objects. These are usually "child" shipments
     # grouped under a parent. Think a consolidated pallet (the parent) with cartons from
     # multiple suppliers (the children).
     #
-    # client is a Cargowise::Client instance to look for the related shipments on
+    # client is a CargowiseTS::Client instance to look for the related shipments on
     #
     def related_shipments(client)
       @related ||= @consols.map { |consol|
@@ -121,7 +121,7 @@ module CargowiseTS
     # This data isn't available via the API, so we need to screen scrape the
     # website to get it.
     #
-    # client is a Cargowise::Client instance to look for the related shipments on
+    # client is a CargowiseTS::Client instance to look for the related shipments on
     #
     def order_ref(client)
       if client.base_uri
@@ -142,7 +142,7 @@ module CargowiseTS
         login_uri = client.base_uri + "/Login/Login.aspx"
         agent = Mechanize.new
         agent.agent.http.ssl_version = :TLSv1
-        if File.file?(Cargowise::CA_CERT_FILE)
+        if File.file?(CargowiseTS::CA_CERT_FILE)
           agent.agent.http.ca_file = CA_CERT_FILE
         end
         page  = agent.get(login_uri)

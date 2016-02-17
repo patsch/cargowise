@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cargowise-ts/abstract_result.rb" afterPath="$PROJECT_DIR$/lib/cargowise-ts/abstract_result.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cargowise-ts.gemspec" afterPath="$PROJECT_DIR$/cargowise-ts.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cargowise-ts/order_search.rb" afterPath="$PROJECT_DIR$/lib/cargowise-ts/order_search.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb" afterPath="$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cargowise-ts/client.rb" afterPath="$PROJECT_DIR$/lib/cargowise-ts/client.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/hello_orders.rb" afterPath="$PROJECT_DIR$/example/hello_orders.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/hello_shipments.rb" afterPath="$PROJECT_DIR$/example/hello_shipments.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/orders.rb" afterPath="$PROJECT_DIR$/example/orders.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cargowise-ts/shipment.rb" afterPath="$PROJECT_DIR$/lib/cargowise-ts/shipment.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/shipments.rb" afterPath="$PROJECT_DIR$/example/shipments.rb" />
     </list>
     <ignored path="cargowise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +35,67 @@
         <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/abstract_result.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/client.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2222223">
+              <caret line="77" column="77" selection-start-line="77" selection-start-column="77" selection-end-line="77" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shipment.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/shipment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello_orders.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/hello_orders.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello_shipments.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/hello_shipments.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orders.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/orders.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shipments.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/shipments.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -76,6 +141,13 @@
       <list>
         <option value="$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb" />
         <option value="$PROJECT_DIR$/lib/cargowise-ts/order_search.rb" />
+        <option value="$PROJECT_DIR$/lib/cargowise-ts/abstract_result.rb" />
+        <option value="$PROJECT_DIR$/lib/cargowise-ts/shipment.rb" />
+        <option value="$PROJECT_DIR$/example/hello_orders.rb" />
+        <option value="$PROJECT_DIR$/example/hello_shipments.rb" />
+        <option value="$PROJECT_DIR$/example/shipments.rb" />
+        <option value="$PROJECT_DIR$/example/orders.rb" />
+        <option value="$PROJECT_DIR$/lib/cargowise-ts/client.rb" />
         <option value="$PROJECT_DIR$/cargowise-ts.gemspec" />
       </list>
     </option>
@@ -176,6 +248,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cargowise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cargowise-ts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -227,14 +313,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/abstract_result.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -247,6 +325,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/abstract_result.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/shipment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/hello_orders.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/hello_shipments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/shipments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/orders.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2222223">
+          <caret line="77" column="77" selection-start-line="77" selection-start-column="77" selection-end-line="77" selection-end-column="77" />
           <folding />
         </state>
       </provider>
