@@ -1,8 +1,8 @@
 # coding: utf-8
 
-require 'cargowise/abstract_result'
+require 'cargowise-ts/abstract_result'
 
-module Cargowise
+module CargowiseTS
 
   # Extra shipping detail associated with a Shipment. Not built
   # directly, but available via the consols() attribute

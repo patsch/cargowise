@@ -7,13 +7,13 @@ require "bigdecimal"
 require 'mechanize'
 require 'andand'
 
-module Cargowise
+module CargowiseTS
   DEFAULT_NS = "http://www.edi.com.au/EnterpriseService/"
   CA_CERT_FILE = "/etc/ssl/certs/ca-certificates.crt"
 end
 
 # this lib
-require 'cargowise/client'
+require 'cargowise-ts/client'
 
 # Make savon/httpi always use Net::HTTP for HTTP requests. It supports
 # forcing the connection to TLSv1 (needed for OHL)

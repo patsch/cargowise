@@ -1,6 +1,6 @@
 # coding: utf-8
 
-module Cargowise
+module CargowiseTS
 
   # Superclass of all objects built to contain results from
   # the API. Not much to see here, mostly common helper methods

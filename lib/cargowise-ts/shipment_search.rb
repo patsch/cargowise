@@ -1,8 +1,8 @@
 # coding: utf-8
 
-require 'cargowise/shipment'
+require 'cargowise-ts/shipment'
 
-module Cargowise
+module CargowiseTS
 
   class ShipmentSearch
 
@@ -38,13 +38,13 @@ module Cargowise
     # find all shipments that had some activity in the past fourteen days. This could
     # include leaving port, being delivered or passing a milestone.
     #
-    def with_recent_activity
+    def with_recent_activity(range = 14)
       filter_hash = {
         "tns:Filter" => {
           "tns:Date" => {
             "tns:DateSearchField" => "ALL",
-            "tns:FromDate" => (Date.today - 14).strftime("%Y-%m-%d"),
-            "tns:ToDate" => (Date.today + 14).strftime("%Y-%m-%d")
+            "tns:FromDate" => (Date.today - range).strftime("%Y-%m-%d"),
+            "tns:ToDate" => (Date.today + range).strftime("%Y-%m-%d")
           }
         }
       }

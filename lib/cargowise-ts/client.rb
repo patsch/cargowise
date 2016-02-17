@@ -1,10 +1,10 @@
 # coding: utf-8
 
 require 'savon'
-require 'cargowise/order_search'
-require 'cargowise/shipment_search'
+require 'cargowise-ts/order_search'
+require 'cargowise-ts/shipment_search'
 
-module Cargowise
+module CargowiseTS
 
   # The starting point for accessing data from your logistics provider. See
   # the README for usage tips.

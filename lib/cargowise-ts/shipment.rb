@@ -1,12 +1,12 @@
 # coding: utf-8
 
-require 'cargowise/abstract_result'
-require 'cargowise/packing'
-require 'cargowise/consol'
-require 'cargowise/document'
-require 'cargowise/invoice'
+require 'cargowise-ts/abstract_result'
+require 'cargowise-ts/packing'
+require 'cargowise-ts/consol'
+require 'cargowise-ts/document'
+require 'cargowise-ts/invoice'
 
-module Cargowise
+module CargowiseTS
 
   # A shipment that is currently on its way to you. Could take on a
   # variety of forms - carton, palet, truck? Could be travelling via

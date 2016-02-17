@@ -1,8 +1,8 @@
 # coding: utf-8
 
-require 'cargowise/order'
+require 'cargowise-ts/order'
 
-module Cargowise
+module CargowiseTS
 
   class OrderSearch
 
