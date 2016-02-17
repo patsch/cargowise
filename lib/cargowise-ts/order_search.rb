@@ -57,7 +57,7 @@ module CargowiseTS
     #
     def get_order_list(filter_hash)
       response = @savon_client.call(:get_order_list, message: filter_hash)
-      response.xpath("//tns:GetOrderListResult/tns:WebOrder", {"tns" => Cargowise::DEFAULT_NS}).map do |node|
+      response.xpath("//tns:GetOrderListResult/tns:WebOrder", {"tns" => CargowiseTS::DEFAULT_NS}).map do |node|
         CargowiseTS::Order.new(node)
       end
     end

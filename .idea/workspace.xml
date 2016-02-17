@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cargowise-ts.gemspec" afterPath="$PROJECT_DIR$/cargowise-ts.gemspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cargowise-ts/order_search.rb" afterPath="$PROJECT_DIR$/lib/cargowise-ts/order_search.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb" afterPath="$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb" />
     </list>
@@ -39,17 +40,27 @@
         <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+              <caret line="92" column="90" selection-start-line="92" selection-start-column="90" selection-end-line="92" selection-end-column="90" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order_search.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="order_search.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/order_search.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6824104">
-              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cargowise-ts.gemspec" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cargowise-ts.gemspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.048859935">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -65,6 +76,7 @@
       <list>
         <option value="$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb" />
         <option value="$PROJECT_DIR$/lib/cargowise-ts/order_search.rb" />
+        <option value="$PROJECT_DIR$/cargowise-ts.gemspec" />
       </list>
     </option>
   </component>
@@ -226,15 +238,23 @@
     <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/shipment_search.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+          <caret line="92" column="90" selection-start-line="92" selection-start-column="90" selection-end-line="92" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/cargowise-ts/order_search.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6824104">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cargowise-ts.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.048859935">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding />
         </state>
       </provider>
