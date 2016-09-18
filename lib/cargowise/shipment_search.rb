@@ -67,7 +67,7 @@ module Cargowise
       get_shipments_list(filter_hash)
     end
 
-    private
+    # PD allowing access private
 
     def by_number(field, ref)
       filter_hash = {

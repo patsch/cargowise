@@ -31,7 +31,7 @@ module Cargowise
     attr_reader :number, :housebill, :goods_description, :service_level
     attr_reader :client_reference
     attr_reader :origin, :destination, :etd, :eta, :delivered_date
-    attr_reader :kg, :cubic_meters
+    attr_reader :kg, :cubic_meters, :quantity
 
     attr_reader :shipper_name
 
@@ -54,6 +54,7 @@ module Cargowise
       @delivered_date = time_value("./DeliveredDate")
       @kg            = kg_value("./Weight")
       @cubic_meters  = cubic_value("./Size")
+      @quantity      = quantity_value("./Quantity")
 
       @shipper_name = text_value("./Shipper/OrganisationDetails/Name")
 

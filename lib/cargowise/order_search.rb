@@ -47,7 +47,7 @@ module Cargowise
       get_order_list(filter_hash)
     end
 
-    private
+    # PD allowing direct access private
 
     # return an array of orders. Each order *should* correspond to a buyer PO.
     #

@@ -85,5 +85,13 @@ module Cargowise
         nil
       end
     end
+
+    # creates quantity value with correct type (probably ALWAS is CTN)
+    def quantity_value(path)
+      val  = text_value(path)
+      type = attribute_value("#{path}/@DimensionType")
+      xtype = type.to_s.downcase == "ctn" ? "Containers" : type.to_s
+      "#{val} #{xtype}"
+    end
   end
 end
