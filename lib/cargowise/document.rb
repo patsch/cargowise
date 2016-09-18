@@ -1,6 +1,6 @@
 # coding: utf-8
 
-require 'cargowises/abstract_result'
+require 'cargowise/abstract_result'
 
 module Cargowise
 
