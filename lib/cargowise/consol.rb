@@ -15,6 +15,7 @@ module Cargowise
     attr_reader :load_port, :discharge_port
 
     def initialize(node)
+
       @node = node
 
       @master_bill    = text_value("./MasterBill")

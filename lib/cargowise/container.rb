@@ -10,10 +10,12 @@ module Cargowise
   #
   class Container < AbstractResult
 
-    attr_reader :container_number, :number_of_containers, :seal_number
-    attr_reader :mode, :kg, :delivery_mode
+    attr_reader :container_number, :number_of_containers
+    attr_reader :kg, :seal_number
+    attr_reader :mode, :delivery_mode
 
     def initialize(node)
+
       @node = node
 
       @container_number       = text_value("./ContainerNumber")

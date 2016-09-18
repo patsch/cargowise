@@ -3,6 +3,7 @@
 require 'cargowise/abstract_result'
 require 'cargowise/packing'
 require 'cargowise/consol'
+require 'cargowise/container'
 require 'cargowise/document'
 require 'cargowise/invoice'
 require 'cargowise/mini_order'
@@ -64,9 +65,8 @@ module Cargowise
         Consol.new(node)
       }
 
-
-      @containers = node_array("./Containers/Container").map { |node|
-        Container.new(node)
+      @containers = node_array("./Containers/Container").map { |cnode|
+        Container.new(cnode)
       }
 
       @packings = node_array("./Packings/Packing").map { |node|
