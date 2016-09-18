@@ -10,7 +10,7 @@ module Cargowise
   #
   class Consol < AbstractResult
 
-    attr_reader :master_bill, :console_mode, :transport_mode
+    attr_reader :master_bill, :consol_mode, :transport_mode
     attr_reader :vessel_name, :voyage_flight
     attr_reader :load_port, :discharge_port
 
@@ -18,7 +18,7 @@ module Cargowise
       @node = node
 
       @master_bill    = text_value("./MasterBill")
-      @console_mode   = text_value("./ConsolMode")
+      @consol_mode   = text_value("./ConsolMode")
       @transport_mode = text_value("./TransportMode")
       @vessel_name    = text_value("./VesselName")
       @voyage_flight  = text_value("./VoyageFlight")
