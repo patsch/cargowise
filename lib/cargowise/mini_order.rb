@@ -1,8 +1,8 @@
 # coding: utf-8
 
-require 'cargowise-ts/abstract_result'
+require 'cargowise/abstract_result'
 
-module CargowiseTS
+module Cargowise
 
   # A purchase order that is being shipped to from a supplier to
   # you via a logistics company.

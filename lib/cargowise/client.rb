@@ -1,10 +1,10 @@
 # coding: utf-8
 
 require 'savon'
-require 'cargowise-ts/order_search'
-require 'cargowise-ts/shipment_search'
+require 'cargowise/order_search'
+require 'cargowise/shipment_search'
 
-module CargowiseTS
+module Cargowise
 
   # The starting point for accessing data from your logistics provider. See
   # the README for usage tips.
@@ -22,13 +22,13 @@ module CargowiseTS
       @password = opts[:password]
     end
 
-    # begin an order search. See the docs for CargowiseTS::OrderSearch for info
+    # begin an order search. See the docs for Cargowise::OrderSearch for info
     # on what you can do with the object returned from this method.
     def orders
       OrderSearch.new(orders_client)
     end
 
-    # begin a shipment search. See the docs for CargowiseTS::ShipmentSearch for
+    # begin a shipment search. See the docs for Cargowise::ShipmentSearch for
     # info on what you can do with the object returned from this method.
     def shipments
       ShipmentSearch.new(shipments_client)
@@ -36,12 +36,12 @@ module CargowiseTS
 
     def orders_hello
       response = orders_client.call(:hello)
-      response.xpath("//tns:HelloResponse/tns:HelloResult/text()", {"tns" => CargowiseTS::DEFAULT_NS}).to_s
+      response.xpath("//tns:HelloResponse/tns:HelloResult/text()", {"tns" => Cargowise::DEFAULT_NS}).to_s
     end
 
     def shipments_hello
       response = shipments_client.call(:hello)
-      response.xpath("//tns:HelloResponse/tns:HelloResult/text()", {"tns" => CargowiseTS::DEFAULT_NS}).to_s
+      response.xpath("//tns:HelloResponse/tns:HelloResult/text()", {"tns" => Cargowise::DEFAULT_NS}).to_s
     end
 
     # Find the base URI for the web interface at this client
@@ -75,7 +75,7 @@ module CargowiseTS
       )
     end
 
-    # TODO: make some of these configurable via the initialize to CargowiseTS::Client. Will enable
+    # TODO: make some of these configurable via the initialize to Cargowise::Client. Will enable
     #       providers that need special treatment to work (like OHL) to be configured differently
     #       by the calling code
     def build_client(wsdl_path, endpoint_uri)

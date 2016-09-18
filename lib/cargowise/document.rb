@@ -1,8 +1,8 @@
 # coding: utf-8
 
-require 'cargowise-ts/abstract_result'
+require 'cargowises/abstract_result'
 
-module CargowiseTS
+module Cargowise
 
   # A document that is associated with a Shipment. Not built
   # directly, but available via the documents() attribute

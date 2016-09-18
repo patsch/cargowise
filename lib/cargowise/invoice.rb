@@ -1,8 +1,8 @@
 # coding: utf-8
 
-require 'cargowise-ts/abstract_result'
+require 'cargowise/abstract_result'
 
-module CargowiseTS
+module Cargowise
 
   # An invoice that is associated with a Shipment. Not built
   # directly, but available via the invoices() attribute
