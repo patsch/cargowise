@@ -27,8 +27,8 @@ either or both.
 Each company using the cargowise product hosts the server themselves, so you will
 need to register the URI and authentication details for the company you want to use.
 
-    client = Cargowise::Client.new(:order_uri => "http://visibility.ijsglobal.com/Tracker/WebService/OrderService.asmx",
-                                   :shipment_uri => "http://visibility.ijsglobal.com/Tracker/WebService/ShipmentService.asmx",
+    client = Cargowise::Client.new(:order_uri => "<base_url>/WebService/OrderService.asmx",
+                                   :shipment_uri => "<base_url>/WebService/ShipmentService.asmx",
                                    :company_code => "company_code",
                                    :username => "user@example.com",
                                    :password => "secret")
@@ -87,20 +87,6 @@ the rest.
 For example, OHLs web tracking site is at:
 
 * https://webtracking.ohl.com/
-
-Their two API endpoints are therefore:
-
-* https://webtracking.ohl.com/WebService/ShipmentService.asmx
-* https://webtracking.ohl.com/WebService/OrderService.asmx
-
-IJS global has a webtracking site at:
-
-* http://visibility.ijsglobal.com/
-
-Their two API endpoints are:
-
-* http://visibility.ijsglobal.com/Tracker/WebService/ShipmentService.asmx
-* http://visibility.ijsglobal.com/Tracker/WebService/OrderService.asmx
 
 ## Links
 
