@@ -90,6 +90,11 @@ module Cargowise
       }.sort_by { |mo|
         mo.ordered_at
       }
+
+      # for Harry Sep 2017
+      @delivery_from_date = time_value("./Deliver/DeliveryFrom")
+      @cartage_advised_date = time_value("./Deliver/CartageAdvised")
+
     end
 
     # returns the raw XML string this shipment is based on
