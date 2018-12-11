@@ -20,6 +20,8 @@ module Cargowise
       @code = opts[:company_code]
       @username = opts[:username]
       @password = opts[:password]
+      @timeout = opts[:timeout]
+      @timeout ||= 600
     end
 
     # begin an order search. See the docs for Cargowise::OrderSearch for info
@@ -85,7 +87,7 @@ module Cargowise
 
         # Cargowise servers can be super slow to respond, this gives them time
         # to have a smoko before responding to our queries.
-        read_timeout: 240,
+        read_timeout: @timeout,
 
         # OHL uses cargowise and has a load balancer that freaks out if we use
         # the OpenSSL 1.0.1 default of TLS1.1.
