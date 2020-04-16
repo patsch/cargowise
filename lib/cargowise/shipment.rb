@@ -35,6 +35,7 @@ module Cargowise
     attr_reader :kg, :cubic_meters, :quantity
 
     attr_reader :shipper_name
+    attr_reader :shipper_code
     attr_reader :shipper_country
     attr_reader :shipper_city
 
@@ -60,6 +61,8 @@ module Cargowise
       @quantity      = quantity_value("./Quantity")
 
       @shipper_name = text_value("./Shipper/OrganisationDetails/Name")
+
+      @shipper_code = attribute_value("./Shipper/@EDICode")
 
       @shipper_country =  attribute_value("./Shipper/OrganisationDetails/Location/@Country")
       @shipper_city =  attribute_value("./Shipper/OrganisationDetails/Location/@City")

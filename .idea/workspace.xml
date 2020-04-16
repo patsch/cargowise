@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="added country &amp; city">
+    <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="added 1.08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cargowise.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/cargowise.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cargowise/shipment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/shipment.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,7 @@
       <updated>1455651572627</updated>
       <workItem from="1474164091401" duration="10502000" />
       <workItem from="1474240323249" duration="1953000" />
-      <workItem from="1587018730203" duration="507000" />
+      <workItem from="1587018730203" duration="2459000" />
     </task>
     <task id="LOCAL-00001" summary="slowly getting there...">
       <created>1474164178819</created>
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587019104791</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added 1.08">
+      <created>1587019259830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587019259830</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +174,7 @@
     <MESSAGE value="added containers" />
     <MESSAGE value="added container &amp; consols" />
     <MESSAGE value="added country &amp; city" />
-    <option name="LAST_COMMIT_MESSAGE" value="added country &amp; city" />
+    <MESSAGE value="added 1.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 1.08" />
   </component>
 </project>
