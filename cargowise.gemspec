@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = "cargowise"
-  s.version           = "1.0.7"
+  s.version           = "1.0.8"
   s.summary           = "client library for the ediEnterprise SOAP API by cargowise"
   s.description       = "Retrieve tracking and status information on your shipments from ediEnterprise"
   s.authors           = ["James Healy","Patrick Dockhorn"]
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.has_rdoc          = true
   s.rdoc_options      << "--title" << "Cargowise" << "--line-numbers"
   s.files             = Dir.glob("lib/**/*.rb") + Dir.glob("lib/**/*.xml") + Dir.glob("examples/**/*.rb") + ["README.markdown", "CHANGELOG", "TODO", "COPYING", "MIT-LICENSE"]
-  s.license           = "mit"
+  s.license           = "MIT"
   s.add_dependency("andand")
   s.add_dependency("savon", "~>2.2.0")
   s.add_dependency("nokogiri", "~>1.4")

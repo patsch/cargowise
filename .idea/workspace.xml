@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="added container &amp; consols">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cargowise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cargowise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="added country &amp; city">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cargowise/shipment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/shipment.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cargowise.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/cargowise.gemspec" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +85,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -100,7 +98,7 @@
       <updated>1455651572627</updated>
       <workItem from="1474164091401" duration="10502000" />
       <workItem from="1474240323249" duration="1953000" />
-      <workItem from="1587018730203" duration="342000" />
+      <workItem from="1587018730203" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="slowly getting there...">
       <created>1474164178819</created>
@@ -130,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474182522205</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added country &amp; city">
+      <created>1587019104791</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587019104791</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +165,7 @@
     <MESSAGE value="added quantity to shipments" />
     <MESSAGE value="added containers" />
     <MESSAGE value="added container &amp; consols" />
-    <option name="LAST_COMMIT_MESSAGE" value="added container &amp; consols" />
+    <MESSAGE value="added country &amp; city" />
+    <option name="LAST_COMMIT_MESSAGE" value="added country &amp; city" />
   </component>
 </project>
