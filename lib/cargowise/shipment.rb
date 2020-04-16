@@ -40,6 +40,10 @@ module Cargowise
     attr_reader :shipper_city
 
     attr_reader :consignee_name
+    attr_reader :consignee_code
+    attr_reader :consignee_country
+    attr_reader :consignee_city
+
 
     attr_reader :consols, :packings, :documents, :invoices, :mini_orders, :containers
 
@@ -61,14 +65,15 @@ module Cargowise
       @quantity      = quantity_value("./Quantity")
 
       @shipper_name = text_value("./Shipper/OrganisationDetails/Name")
-
       @shipper_code = attribute_value("./Shipper/@EDICode")
-
       @shipper_country =  attribute_value("./Shipper/OrganisationDetails/Location/@Country")
       @shipper_city =  attribute_value("./Shipper/OrganisationDetails/Location/@City")
 
 
       @consignee_name = text_value("./Consignee/OrganisationDetails/Name")
+      @consignee_code = attribute_value("./Consignee/@EDICode")
+      @consignee_country =  attribute_value("./Consignee/OrganisationDetails/Location/@Country")
+      @consignee_city =  attribute_value("./Consignee/OrganisationDetails/Location/@City")
 
       @consols = node_array("./Consols/Consol").map { |node|
         Consol.new(node)
