@@ -25,6 +25,9 @@ module Cargowise
       @voyage_flight  = text_value("./VoyageFlight")
       @load_port      = text_value("./LoadPort")
       @discharge_port = text_value("./DischargePort")
+      # PD 04/07/2020 : Added ATD / ATA
+      @atd           = time_value("./ATD")
+      @ata           = time_value("./ATA")
     end
   end
 end
