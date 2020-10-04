@@ -102,6 +102,7 @@ module Cargowise
           Cargowise::Shipment.new(node)
         end
       end
+      response
     end
 
   end
