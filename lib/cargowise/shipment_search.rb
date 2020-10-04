@@ -98,11 +98,10 @@ module Cargowise
         cdir = "#{Rails.root}/log/#{@ccode}"
         Dir.mkdir(cdir) if !File.exist?(cdir)
         File.open("#{cdir}/#{Time.now.strftime('%Y-%m-%d-%H-%M-%S')}.json","wb") { |f| f.write response.to_xml }
-        response.xpath("//tns:GetShipmentsListResult/tns:WebShipment", {"tns" => Cargowise::DEFAULT_NS}).map do |node|
-          Cargowise::Shipment.new(node)
-        end
       end
-      response
+      response.xpath("//tns:GetShipmentsListResult/tns:WebShipment", {"tns" => Cargowise::DEFAULT_NS}).map do |node|
+        Cargowise::Shipment.new(node)
+      end
     end
 
   end
