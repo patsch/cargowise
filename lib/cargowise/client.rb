@@ -33,7 +33,7 @@ module Cargowise
     # begin a shipment search. See the docs for Cargowise::ShipmentSearch for
     # info on what you can do with the object returned from this method.
     def shipments
-      ShipmentSearch.new(shipments_client)
+      ShipmentSearch.new(shipments_client,@code)
     end
 
     def orders_hello

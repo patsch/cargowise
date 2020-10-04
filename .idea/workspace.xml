@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="Vesion 1.0.11 - included shipper code and consignee details">
+    <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="Vesion 1.0.12 - added ATA and ATD to consol">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cargowise.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/cargowise.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cargowise/consol.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/consol.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cargowise/abstract_result.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/abstract_result.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cargowise/client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/client.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cargowise/shipment_search.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/shipment_search.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +68,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -64,7 +85,12 @@
       <workItem from="1587018730203" duration="3928000" />
       <workItem from="1591753111367" duration="2263000" />
       <workItem from="1591756889713" duration="598000" />
-      <workItem from="1593818176301" duration="55000" />
+      <workItem from="1593818176301" duration="1128000" />
+      <workItem from="1593856646523" duration="312000" />
+      <workItem from="1594252312046" duration="18000" />
+      <workItem from="1596859843739" duration="2483000" />
+      <workItem from="1597389517079" duration="537000" />
+      <workItem from="1601848284101" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="slowly getting there...">
       <created>1474164178819</created>
@@ -129,11 +155,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587023140018</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Vesion 1.0.12 - added ATA and ATD to consol">
+      <created>1593818247955</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593818247955</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -165,12 +198,22 @@
     <MESSAGE value="Vesion 1.0.9 - included shipper code" />
     <MESSAGE value="Vesion 1.0.10 - included shipper code and consignee details" />
     <MESSAGE value="Vesion 1.0.11 - included shipper code and consignee details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vesion 1.0.11 - included shipper code and consignee details" />
+    <MESSAGE value="Vesion 1.0.12 - added ATA and ATD to consol" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vesion 1.0.12 - added ATA and ATD to consol" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1013" y="460" width="586" height="490" key="find.popup" timestamp="1591755906724">
-      <screen x="0" y="23" width="2560" height="1353" />
+    <state x="994" y="431" key="Vcs.Push.Dialog.v2" timestamp="1593818249660">
+      <screen x="0" y="23" width="2560" height="1356" />
     </state>
-    <state x="1013" y="460" width="586" height="490" key="find.popup/0.23.2560.1353@0.23.2560.1353" timestamp="1591755906724" />
+    <state x="994" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1356@0.23.2560.1356" timestamp="1593818249660" />
+    <state x="1013" y="455" width="586" height="490" key="find.popup" timestamp="1601848331977">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1013" y="455" width="586" height="490" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1601848331977" />
+    <state x="1013" y="458" width="586" height="490" key="find.popup/0.23.2560.1347@0.23.2560.1347" timestamp="1596859862834" />
+    <state x="1056" y="377" width="670" height="676" key="search.everywhere.popup" timestamp="1596860246172">
+      <screen x="0" y="23" width="2560" height="1347" />
+    </state>
+    <state x="1056" y="377" width="670" height="676" key="search.everywhere.popup/0.23.2560.1347@0.23.2560.1347" timestamp="1596860246172" />
   </component>
 </project>

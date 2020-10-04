@@ -49,7 +49,7 @@ module Cargowise
 
     def decimal_value(path)
       val = text_value(path)
-      val.nil? ? nil : BigDecimal.new(val)
+      val.nil? ? nil : BigDecimal(val)
     end
 
     # return a weight value in KG. Transparently handles the
@@ -60,9 +60,9 @@ module Cargowise
       type = attribute_value("#{path}/@DimensionType")
 
       if type.to_s.downcase == "kg"
-        BigDecimal.new(val)
+        BigDecimal(val)
       elsif type.to_s.downcase == "lb"
-        val = BigDecimal.new(val) * BigDecimal.new("0.45359237")
+        val = BigDecimal(val) * BigDecimal("0.45359237")
         val.round(4)
       else
         nil
@@ -77,9 +77,9 @@ module Cargowise
       type = attribute_value("#{path}/@DimensionType")
 
       if type.to_s.downcase == "m3" # cubic metres
-        BigDecimal.new(val)
+        BigDecimal(val)
       elsif type.to_s.downcase == "cf" # cubic feet
-        val = BigDecimal.new(val) * BigDecimal.new("0.0283168466")
+        val = BigDecimal(val) * BigDecimal("0.0283168466")
         val.round(4)
       else
         nil

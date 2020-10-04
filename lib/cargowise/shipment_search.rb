@@ -6,8 +6,10 @@ module Cargowise
 
   class ShipmentSearch
 
-    def initialize(savon_client)
+    attr_accessor :ccode
+    def initialize(savon_client, ccode = nil)
       @savon_client = savon_client
+      @ccode = ccode
     end
 
     # find all shipments with a MasterBillNumber that matches ref
@@ -90,8 +92,15 @@ module Cargowise
     #
     def get_shipments_list(filter_hash)
       response = @savon_client.call(:get_shipments_list, message: filter_hash)
-      response.xpath("//tns:GetShipmentsListResult/tns:WebShipment", {"tns" => Cargowise::DEFAULT_NS}).map do |node|
-        Cargowise::Shipment.new(node)
+      if false
+        # PD dump responses - see /Users/patsch/.rvm/gems/ruby-2.3.8@e-connect/bundler/gems/cargowise-04044332ef0b/lib/cargowise
+        @code = "UNKNOWN" if @ccode.blank?
+        cdir = "#{Rails.root}/log/#{@ccode}"
+        Dir.mkdir(cdir) if !File.exist?(cdir)
+        File.open("#{cdir}/#{Time.now.strftime('%Y-%m-%d-%H-%M-%S')}.json","wb") { |f| f.write response.to_xml }
+        response.xpath("//tns:GetShipmentsListResult/tns:WebShipment", {"tns" => Cargowise::DEFAULT_NS}).map do |node|
+          Cargowise::Shipment.new(node)
+        end
       end
     end
 
