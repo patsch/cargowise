@@ -97,8 +97,11 @@ module Cargowise
         @code = "UNKNOWN" if @ccode.blank?
         cdir = "#{Rails.root}/log/#{@ccode}"
         Dir.mkdir(cdir) if !File.exist?(cdir)
-        File.open("#{cdir}/#{Time.now.strftime('%Y-%m-%d-%H-%M-%S')}.json","wb") { |f| f.write response.to_xml }
+        filename = "#{cdir}/#{Time.now.strftime('%Y-%m-%d-%H-%M-%S')}.json"
+        File.open("#{Rails.root}/log/cargowise.log","at") { |f| f.puts "#{Time.now.strftime('%d/%m/%Y %H:%M:%S')} #{@ccode} : Data received in #{filename}" }
+        File.open(filename,"wb") { |f| f.write response.to_xml }
       end
+
       response.xpath("//tns:GetShipmentsListResult/tns:WebShipment", {"tns" => Cargowise::DEFAULT_NS}).map do |node|
         Cargowise::Shipment.new(node)
       end
