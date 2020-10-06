@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="better logging in debug mode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cargowise.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/cargowise.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cargowise/abstract_result.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/abstract_result.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cargowise/shipment_search.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/shipment_search.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +90,8 @@
       <workItem from="1596859843739" duration="2483000" />
       <workItem from="1597389517079" duration="537000" />
       <workItem from="1601848284101" duration="915000" />
-      <workItem from="1601960526588" duration="78000" />
+      <workItem from="1601960526588" duration="92000" />
+      <workItem from="1601971476404" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="slowly getting there...">
       <created>1474164178819</created>
@@ -188,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601960570577</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="better logging in debug mode">
+      <created>1601960610640</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601960610640</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,20 +254,22 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="328" y="183" width="2132" height="1013" key="DiffContextDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1601849158825" />
-    <state x="994" y="425" key="Vcs.Push.Dialog.v2" timestamp="1601960571457">
+    <state x="994" y="425" key="Vcs.Push.Dialog.v2" timestamp="1601960611535">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="994" y="425" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1601960571457" />
+    <state x="994" y="425" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1601960611535" />
     <state x="994" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1356@0.23.2560.1356" timestamp="1593818249660" />
-    <state x="1013" y="455" width="586" height="490" key="find.popup" timestamp="1601848331977">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state x="1013" y="457" width="586" height="492" key="find.popup" timestamp="1601972047541">
+      <screen x="0" y="23" width="2560" height="1342" />
     </state>
     <state x="1013" y="455" width="586" height="490" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1601848331977" />
+    <state x="1013" y="457" width="586" height="492" key="find.popup/0.23.2560.1342@0.23.2560.1342" timestamp="1601972047541" />
     <state x="1013" y="458" width="586" height="490" key="find.popup/0.23.2560.1347@0.23.2560.1347" timestamp="1596859862834" />
-    <state x="1056" y="374" width="670" height="671" key="search.everywhere.popup" timestamp="1601849198355">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state x="1056" y="375" width="670" height="674" key="search.everywhere.popup" timestamp="1601972063466">
+      <screen x="0" y="23" width="2560" height="1342" />
     </state>
     <state x="1056" y="374" width="670" height="671" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1601849198355" />
+    <state x="1056" y="375" width="670" height="674" key="search.everywhere.popup/0.23.2560.1342@0.23.2560.1342" timestamp="1601972063466" />
     <state x="1056" y="377" width="670" height="676" key="search.everywhere.popup/0.23.2560.1347@0.23.2560.1347" timestamp="1596860246172" />
   </component>
 </project>
