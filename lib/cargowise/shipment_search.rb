@@ -92,7 +92,7 @@ module Cargowise
     #
     def get_shipments_list(filter_hash)
       response = @savon_client.call(:get_shipments_list, message: filter_hash)
-      if false
+      if false && File.exist?("/tmp/cargowise.debug")
         # PD dump responses - see /Users/patsch/.rvm/gems/ruby-2.3.8@e-connect/bundler/gems/cargowise-04044332ef0b/lib/cargowise
         @code = "UNKNOWN" if @ccode.blank?
         cdir = "#{Rails.root}/log/#{@ccode}"
