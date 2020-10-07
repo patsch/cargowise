@@ -6,6 +6,7 @@ require 'cargowise/consol'
 require 'cargowise/container'
 require 'cargowise/document'
 require 'cargowise/invoice'
+require 'cargowise/note'
 require 'cargowise/mini_order'
 
 module Cargowise
