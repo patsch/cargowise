@@ -45,7 +45,7 @@ module Cargowise
     attr_reader :consignee_city
 
 
-    attr_reader :consols, :packings, :documents, :invoices, :mini_orders, :containers
+    attr_reader :consols, :packings, :documents, :invoices, :mini_orders, :containers, :notes
 
     def initialize(node)
       @node = node
@@ -91,6 +91,12 @@ module Cargowise
         Document.new(node)
       }.sort_by { |doc|
         doc.date
+      }
+
+      @notes = node_array("./Notes/Note").map { |node|
+        Note.new(node)
+      }.sort_by { |note|
+        note.created_at
       }
 
       @invoices = node_array("./RelatedInvoiceLinks/InvoiceLink").map { |node|
