@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="missing require">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cargowise.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/cargowise.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cargowise/shipment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/shipment.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,9 @@
       <workItem from="1597389517079" duration="537000" />
       <workItem from="1601848284101" duration="915000" />
       <workItem from="1601960526588" duration="92000" />
-      <workItem from="1601971476404" duration="2706000" />
+      <workItem from="1601971476404" duration="3296000" />
+      <workItem from="1604536488542" duration="1279000" />
+      <workItem from="1604548737920" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="slowly getting there...">
       <created>1474164178819</created>
@@ -216,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602040023692</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="missing require">
+      <created>1602040173304</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602040173304</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,19 +286,19 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="328" y="183" width="2132" height="1013" key="DiffContextDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1601849158825" />
-    <state x="994" y="427" key="Vcs.Push.Dialog.v2" timestamp="1602040025038">
+    <state x="994" y="427" key="Vcs.Push.Dialog.v2" timestamp="1602040174360">
       <screen x="0" y="23" width="2560" height="1343" />
     </state>
     <state x="994" y="425" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1601960611535" />
     <state x="994" y="427" key="Vcs.Push.Dialog.v2/0.23.2560.1342@0.23.2560.1342" timestamp="1601972098161" />
-    <state x="994" y="427" key="Vcs.Push.Dialog.v2/0.23.2560.1343@0.23.2560.1343" timestamp="1602040025038" />
-    <state x="994" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1356@0.23.2560.1356" timestamp="1593818249660" />
-    <state x="1013" y="457" width="586" height="492" key="find.popup" timestamp="1601972047541">
-      <screen x="0" y="23" width="2560" height="1342" />
+    <state x="994" y="427" key="Vcs.Push.Dialog.v2/0.23.2560.1343@0.23.2560.1343" timestamp="1602040174360" />
+    <state x="1013" y="459" width="586" height="495" key="find.popup" timestamp="1604548743482">
+      <screen x="0" y="23" width="2560" height="1348" />
     </state>
     <state x="1013" y="455" width="586" height="490" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1601848331977" />
     <state x="1013" y="457" width="586" height="492" key="find.popup/0.23.2560.1342@0.23.2560.1342" timestamp="1601972047541" />
     <state x="1013" y="458" width="586" height="490" key="find.popup/0.23.2560.1347@0.23.2560.1347" timestamp="1596859862834" />
+    <state x="1013" y="459" width="586" height="495" key="find.popup/0.23.2560.1348@0.23.2560.1348" timestamp="1604548743482" />
     <state x="1056" y="375" width="670" height="675" key="search.everywhere.popup" timestamp="1602040165137">
       <screen x="0" y="23" width="2560" height="1343" />
     </state>

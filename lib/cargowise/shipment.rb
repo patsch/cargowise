@@ -33,6 +33,9 @@ module Cargowise
     attr_reader :number, :housebill, :goods_description, :service_level
     attr_reader :client_reference
     attr_reader :origin, :destination, :etd, :eta, :delivered_date
+    attr_read   :origin_country,:origin_city
+    attr_read   :destination_country,:destination_city
+
     attr_reader :kg, :cubic_meters, :quantity
 
     attr_reader :shipper_name
@@ -57,7 +60,14 @@ module Cargowise
       @service_level = text_value("./ServiceLevel")
       @client_reference = text_value("./ClientReference")
       @origin        = text_value("./Origin")
+      @origin_country        = text_value("./Origin/@Country")
+      @origin_city        = text_value("./Origin/@City")
+
+
       @destination   = text_value("./Destination")
+      @destination_country        = text_value("./Destination/@Country")
+      @destination_city        = text_value("./Destination/@City")
+
       @etd           = time_value("./ETD")
       @eta           = time_value("./ETA")
       @delivered_date = time_value("./DeliveredDate")
