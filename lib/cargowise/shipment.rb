@@ -60,13 +60,13 @@ module Cargowise
       @service_level = text_value("./ServiceLevel")
       @client_reference = text_value("./ClientReference")
       @origin        = text_value("./Origin")
-      @origin_country        = text_value("./Origin/@Country")
-      @origin_city        = text_value("./Origin/@City")
+      @origin_country        = attribute_value("./Origin/@Country")
+      @origin_city        = attribute_value("./Origin/@City")
 
 
       @destination   = text_value("./Destination")
-      @destination_country        = text_value("./Destination/@Country")
-      @destination_city        = text_value("./Destination/@City")
+      @destination_country        = attribute_value("./Destination/@Country")
+      @destination_city        = attribute_value("./Destination/@City")
 
       @etd           = time_value("./ETD")
       @eta           = time_value("./ETA")

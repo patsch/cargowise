@@ -92,7 +92,7 @@
       <workItem from="1601960526588" duration="92000" />
       <workItem from="1601971476404" duration="3296000" />
       <workItem from="1604536488542" duration="1279000" />
-      <workItem from="1604548737920" duration="946000" />
+      <workItem from="1604548737920" duration="1151000" />
     </task>
     <task id="LOCAL-00001" summary="slowly getting there...">
       <created>1474164178819</created>
@@ -234,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604548933600</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added origin city and country and destination city and country">
+      <created>1604550201048</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604550201048</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,13 +301,13 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="328" y="183" width="2132" height="1013" key="DiffContextDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1601849158825" />
-    <state x="994" y="429" key="Vcs.Push.Dialog.v2" timestamp="1604548935756">
+    <state x="994" y="429" key="Vcs.Push.Dialog.v2" timestamp="1604550202016">
       <screen x="0" y="23" width="2560" height="1348" />
     </state>
     <state x="994" y="425" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1601960611535" />
     <state x="994" y="427" key="Vcs.Push.Dialog.v2/0.23.2560.1342@0.23.2560.1342" timestamp="1601972098161" />
     <state x="994" y="427" key="Vcs.Push.Dialog.v2/0.23.2560.1343@0.23.2560.1343" timestamp="1602040174360" />
-    <state x="994" y="429" key="Vcs.Push.Dialog.v2/0.23.2560.1348@0.23.2560.1348" timestamp="1604548935756" />
+    <state x="994" y="429" key="Vcs.Push.Dialog.v2/0.23.2560.1348@0.23.2560.1348" timestamp="1604550202016" />
     <state x="1013" y="459" width="586" height="495" key="find.popup" timestamp="1604548743482">
       <screen x="0" y="23" width="2560" height="1348" />
     </state>

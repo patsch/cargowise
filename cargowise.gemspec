@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = "cargowise"
-  s.version           = "1.0.18"
+  s.version           = "1.0.19"
   s.summary           = "client library for the ediEnterprise SOAP API by cargowise"
   s.description       = "Retrieve tracking and status information on your shipments from ediEnterprise"
   s.authors           = ["James Healy","Patrick Dockhorn"]
