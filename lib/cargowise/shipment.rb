@@ -33,8 +33,8 @@ module Cargowise
     attr_reader :number, :housebill, :goods_description, :service_level
     attr_reader :client_reference
     attr_reader :origin, :destination, :etd, :eta, :delivered_date
-    attr_read   :origin_country,:origin_city
-    attr_read   :destination_country,:destination_city
+    attr_reader   :origin_country,:origin_city
+    attr_reader   :destination_country,:destination_city
 
     attr_reader :kg, :cubic_meters, :quantity
 
