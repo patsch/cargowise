@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="added origin city and country and destination city and country">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cargowise.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/cargowise.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cargowise/shipment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/shipment.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -75,6 +75,10 @@ module Cargowise
       @cubic_meters  = cubic_value("./Size")
       @quantity      = quantity_value("./Quantity")
 
+      # PD Nov 2020: do we assume that quantity is always in PKG, Weight is always in KG, and Size is always in M3 ??
+      # otherwise we need to pull & store this information too, i.e.
+      # @quantity_dimension = attribute_value("./Quantity/@DimensionType")
+
       @shipper_name = text_value("./Shipper/OrganisationDetails/Name")
       @shipper_code = attribute_value("./Shipper/@EDICode")
       @shipper_country =  attribute_value("./Shipper/OrganisationDetails/Location/@Country")
