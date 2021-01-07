@@ -57,7 +57,16 @@ module Cargowise
 
     def decimal_value(path)
       val = text_value(path)
-      val.nil? || val.strip.length == 0 ? nil : BigDecimal(val)
+      ret = nil
+      if !val.nil? && val.strip.length > 0
+        begin
+          ret = BigDecimal(val)
+        rescue => e
+          puts "CargowiseLib : Failed to parse decimal value from <<<#{@node.to_xml}>>>"
+          raise e
+        end
+      end
+      ret
     end
 
     # return a weight value in KG. Transparently handles the

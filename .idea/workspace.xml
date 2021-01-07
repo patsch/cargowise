@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="added origin city and country and destination city and country">
+    <list default="true" id="c7cda5a0-78d9-4c02-bf20-b5be02c5f375" name="Default" comment="preventing decimal values from barfing if an empty string is supplied">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cargowise.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/cargowise.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cargowise/abstract_result.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cargowise/abstract_result.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,7 @@
       <workItem from="1604536488542" duration="1279000" />
       <workItem from="1604548737920" duration="1151000" />
       <workItem from="1609982788120" duration="552000" />
-      <workItem from="1610002796307" duration="145000" />
+      <workItem from="1610002796307" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="slowly getting there...">
       <created>1474164178819</created>
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604551057123</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="preventing decimal values from barfing if an empty string is supplied">
+      <created>1610002964962</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610002964962</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +309,7 @@
     <MESSAGE value="1.0.15: added support for notes" />
     <MESSAGE value="missing require" />
     <MESSAGE value="added origin city and country and destination city and country" />
-    <option name="LAST_COMMIT_MESSAGE" value="added origin city and country and destination city and country" />
+    <MESSAGE value="preventing decimal values from barfing if an empty string is supplied" />
+    <option name="LAST_COMMIT_MESSAGE" value="preventing decimal values from barfing if an empty string is supplied" />
   </component>
 </project>
