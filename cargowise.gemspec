@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = "cargowise"
-  s.version           = "1.0.19"
+  s.version           = "1.0.20"
   s.summary           = "client library for the ediEnterprise SOAP API by cargowise"
   s.description       = "Retrieve tracking and status information on your shipments from ediEnterprise"
   s.authors           = ["James Healy","Patrick Dockhorn"]
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
 
   This fork is adding additional data elements when parsing the EDI XML.
 
+  v1.0.20 stops the packing parser from crashing if no data is supplied.
   ********************************************
 
 END_DESC

@@ -50,14 +50,14 @@ module Cargowise
 
     def time_value(path)
       val = text_value(path)
-      val.nil? ? nil : DateTime.parse(val)
+      val.nil? || val.strip.length == 0 ? nil : DateTime.parse(val)
     rescue ArgumentError
       return nil
     end
 
     def decimal_value(path)
       val = text_value(path)
-      val.nil? ? nil : BigDecimal(val)
+      val.nil? || val.strip.length == 0 ? nil : BigDecimal(val)
     end
 
     # return a weight value in KG. Transparently handles the
